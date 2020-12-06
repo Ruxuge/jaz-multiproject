@@ -10,7 +10,7 @@ services:
   jazclient:
     build: ./jaz-client
     ports:
-      - "22222:22222"
+      - "33333:33333"
     depends_on:
       - jazapi
   cardb:
